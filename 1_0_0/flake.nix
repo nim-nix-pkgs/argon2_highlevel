@@ -9,13 +9,14 @@
   
   inputs.src-argon2_highlevel-1_0_0.flake = false;
   inputs.src-argon2_highlevel-1_0_0.owner = "termermc";
-  inputs.src-argon2_highlevel-1_0_0.ref   = "refs/tags/1.0.0";
+  inputs.src-argon2_highlevel-1_0_0.ref   = "1_0_0";
   inputs.src-argon2_highlevel-1_0_0.repo  = "argon2-highlevel";
   inputs.src-argon2_highlevel-1_0_0.type  = "github";
   
   inputs."random".owner = "nim-nix-pkgs";
   inputs."random".ref   = "master";
   inputs."random".repo  = "random";
+  inputs."random".dir   = "v0_5_7";
   inputs."random".type  = "github";
   inputs."random".inputs.nixpkgs.follows = "nixpkgs";
   inputs."random".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
