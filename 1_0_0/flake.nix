@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-argon2_highlevel-1_0_0.flake = false;
+  inputs.src-argon2_highlevel-1_0_0.ref   = "refs/tags/1.0.0";
   inputs.src-argon2_highlevel-1_0_0.owner = "termermc";
-  inputs.src-argon2_highlevel-1_0_0.ref   = "1_0_0";
   inputs.src-argon2_highlevel-1_0_0.repo  = "argon2-highlevel";
   inputs.src-argon2_highlevel-1_0_0.type  = "github";
   
