@@ -11,7 +11,6 @@
   inputs.src-argon2_highlevel-master.ref   = "refs/heads/master";
   inputs.src-argon2_highlevel-master.owner = "termermc";
   inputs.src-argon2_highlevel-master.repo  = "argon2-highlevel";
-  inputs.src-argon2_highlevel-master.dir   = "";
   inputs.src-argon2_highlevel-master.type  = "github";
   
   inputs."random".owner = "nim-nix-pkgs";
